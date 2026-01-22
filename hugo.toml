@@ -1,4 +1,4 @@
-baseURL = 'https://example.com/'
+baseURL = 'https://helderlv.github.io/labveilletech/'
 languageCode = 'en-US'
 title = "Veille Technologique"
 theme = "mana"
