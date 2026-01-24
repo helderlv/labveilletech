@@ -1,0 +1,50 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="hero-section"
+    style="display: flex; align-items: center; justify-content: center;">
+    <div class="hero-container"
+        style="max-width: 100%; display: flex; justify-content: center;">
+        <div class="hero-content"
+            style="justify-content: center; align-items: center; display: flex;">
+            <div class="hero-text"
+                style="text-align: center; width: 100%; max-width: 800px;">
+                <h1 class="hero-title">
+                    {{ if site.Params.heroTitleLine1 }}
+                    <span class="hero-title-line1">{{ site.Params.heroTitleLine1
+                        }}</span>
+                    {{ else }}
+                    <span class="hero-title-line1">{{ site.Title }}</span>
+                    {{ end }}
+                    {{ if site.Params.heroTitleLine2 }}
+                    <span class="hero-title-line2">{{ site.Params.heroTitleLine2
+                        }}</span>
+                    {{ end }}
+                </h1>
+                {{ if site.Params.description }}
+                <p class="hero-subtitle">&gt; {{ site.Params.description }}</p>
+                {{ else if site.Description }}
+                <p class="hero-subtitle">&gt; {{ site.Description }}</p>
+                {{ end }}
+                {{ if site.Params.social }}
+                <div class="hero-social" style="justify-content: center;">
+                    {{ partial "social-links.html" . }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="home-container">
+    <!-- Posts List -->
+    <section class="posts-section">
+        <h2 class="posts-title">Articles récents</h2>
+        <div class="posts-list">
+            {{ $posts := where site.RegularPages "Type" "posts" }}
+            {{ range first 6 $posts }}
+            {{ partial "post-card.html" (dict "page" . "limit" 3) }}
+            {{ end }}
+        </div>
+    </section>
+</div>
+{{ end }}

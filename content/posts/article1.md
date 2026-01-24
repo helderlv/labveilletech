@@ -2,32 +2,34 @@
 date = '2026-01-15T11:17:41+01:00'
 draft = false
 title = 'Les Collections Étendues Figma'
-description = 'Mieux organiser ses données pour ne plus tout dupliquer.'
+description = "Optimiser l'architecture des données pour éliminer toute redondance."
 categories = ['UI & Design Systems']
 tags = ['Figma', 'Workflow']
+image = './images/collections-etendues.png'
 +++
 
 ## De quoi s'agit-il ?
-Figma permet désormais de partager des **variables** (comme des couleurs ou des espacements) entre plusieurs fichiers différents. 
+Figma permet désormais de partager des variables comme des couleurs ou des espacements entre plusieurs fichiers différents. Auparavant, il fallait tout copier manuellement d'un fichier à l'autre, mais aujourd'hui on peut créer une bibliothèque principale qui diffuse ses réglages vers d'autres projets. C'est comme avoir un cerveau central qui contrôle l'apparence de plusieurs produits en même temps sans devoir tout dupliquer.
 
-Auparavant il fallait tout copier manuellement d'un fichier à l'autre mais aujourd'hui on peut créer une **bibliothèque principale** qui diffuse ses réglages vers d'autres projets. C'est comme avoir un cerveau central qui contrôle l'apparence de plusieurs produits en même temps sans devoir tout dupliquer.
+<img src="../../images/Overridden variables.png" alt="Interface de gestion des variables dans Figma" style="max-width: 900px; width: 100%;">
 
-##  Pourquoi j'ai choisi ce sujet
-J'ai choisi ce sujet car la mise à jour des designs est souvent une tâche longue et fastidieuse sur les gros projets. Cette nouveauté résout le problème car il suffit désormais de **changer une couleur à un seul endroit** pour qu'elle se modifie partout automatiquement. 
+*Figure 1 : Interface de gestion des variables dans Figma, montrant des collections de couleurs et leurs valeurs pour différents modes.*
+<br>
+*Source : [Figma Help Center](https://help.figma.com/hc/en-us/articles/36346281624471-Extend-a-variable-collection)*
 
-C'est essentiel pour garantir que l'image de la marque reste identique sur tous les écrans sans risque d'oubli ou d'erreur humaine.
+##  La fin des mises à jour fastidieuses
+Le choix de ce sujet s'explique par la complexité des mises à jour sur les gros projets, souvent longues et fastidieuses. Cette fonctionnalité apporte une solution concrète : il suffit désormais de modifier une variable à un seul endroit pour qu'elle se répercute automatiquement partout. C'est un atout essentiel pour garantir la cohérence de l'image de marque sur tous les écrans, éliminant ainsi les risques d'oubli ou d'erreur humaine.
 
-##  Qu'est-ce qui est intéressant
-Ce qui est intéressant est la possibilité de **mieux ranger ses données** pour ne pas s'y perdre. On peut séparer les bases techniques des choix créatifs afin de ne pas surcharger les fichiers de travail quotidiens. C'est une méthode d'organisation qui permet de garder des fichiers propres et légers même quand le projet devient très complexe.
+##  Mieux ranger pour ne pas se perdre
+L'aspect le plus intéressant réside dans l'organisation des données. On peut séparer les bases techniques des choix créatifs afin de ne pas surcharger les fichiers de travail quotidiens. C'est une méthode qui permet de garder des fichiers propres et légers, même lorsque le projet devient très complexe.
 
-##  Ce que j'apprends
-J'apprends à ne plus seulement dessiner des écrans mais à **construire une architecture logique**. Je découvre comment créer des liens intelligents entre mes fichiers pour qu'ils communiquent entre eux efficacement. Cela m'entraîne à anticiper l'avenir en bâtissant des fondations solides qui supporteront les changements futurs sans tout casser.
+##  Penser en architecte plutôt qu'en dessinateur
+Cette approche permet de dépasser la simple conception d'écrans pour se concentrer sur la construction d'une architecture logique. L'enjeu est de créer des liens intelligents entre les fichiers afin qu'ils communiquent efficacement. Cela force à anticiper l'avenir en bâtissant des fondations solides, capables de supporter les changements futurs sans altérer la structure globale.
 
-##  Pourquoi ça peut être utile
-C'est très utile pour travailler dans des **grandes entreprises** qui gèrent plusieurs marques ou plusieurs produits en même temps. Cela facilite aussi grandement le travail avec les développeurs car cette logique de partage correspond exactement à la manière dont ils organisent leur code informatique.
+##  Un atout pour les grandes équipes
+Cette compétence est précieuse pour travailler dans des entreprises qui gèrent plusieurs marques ou produits simultanément. Elle facilite aussi grandement la collaboration avec les développeurs, car cette logique de partage et d'héritage correspond exactement à la manière dont ils organisent leur propre code informatique.
 
 ---
-###  Sources
-* **Article :** [Extended collections are here](https://medium.com/design-systems-collective) (Design Systems Collective)
-* **Vidéo :** [Les VARIABLES sur Figma ! (Tuto complet) - Basti UI](https://www.youtube.com/watch?v=3g8_fGq_w_0)
-* **Vidéo :** [Figma Variables Explained - TD Sunshine](https://www.youtube.com/results?search_query=Figma+Variabl+Explained)
+##  Sources
+* **Article :** [Extended collections are here](https://www.designsystemscollective.com/extended-collections-are-here-and-you-cant-have-them-5d1e63138df1) (Design Systems Collective)
+* **Vidéo :** [Toutes les nouveautés de Figma en 8 min 32 - Basti Sans MS](https://www.youtube.com/watch?v=YM9S4RKVhFE)

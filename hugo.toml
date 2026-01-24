@@ -1,15 +1,17 @@
 baseURL = 'https://helderlv.github.io/labveilletech/'
-languageCode = 'en-US'
-title = "Veille Technologique"
+languageCode = 'fr-FR'
+defaultContentLanguage = 'fr'
+title = "Labo Design & Tech"
 theme = "mana"
 
 # Theme configuration
 [params]
-  description = "Your site description"
+  description = "Décrypter l'UX/UI et les technologies qui façonnent le design de demain."
   author = "Helder"
   favicon = "/favicon/logo-transparent/favicon.ico"
-  heroTitleLine1 = "Veille Technologique"
-# heroTitleLine2 = "YOUR TAGLINE"
+  heroTitleLine1 = "Veille UX/UI"
+  # heroTitleLine2 = ""
+  footerText = "Veille UX/UI • Construit avec Hugo et le thème Mana"
   
   # 404 Page Configuration
   # Custom message for the 404 error page (supports HTML)
@@ -49,7 +51,6 @@ theme = "mana"
       # assetPath = "images/about-avatar.png"
       # enableResize = false  # Override general setting for about page
   
-  
   # Info for the copyright notice in the footer.
   [params.copyright]
     # Set this if you want a range, rather than just the current year (as of the last time you ran "hugo build").
@@ -58,7 +59,7 @@ theme = "mana"
     owner = "Helder"
   
   # Footer text (optional)
-  footerText = "Built with Hugo and Mana theme"
+  # footerText = "Built with Hugo and Mana theme"
   
   # Code syntax highlighting themes
   # Options: Any valid Chroma style name (e.g., "catppuccin-macchiato", "catppuccin-frappe", "github", "monokai", etc.)
@@ -73,12 +74,12 @@ theme = "mana"
 
 # Main menu
 [[menus.main]]
-name = 'Home'
+name = 'Accueil'
 pageRef = '/'
 weight = 10
 
 [[menus.main]]
-name = 'Posts'
+name = 'Articles'
 pageRef = '/posts'
 weight = 20
 
@@ -88,7 +89,7 @@ pageRef = '/tags'
 weight = 30
 
 [[menus.main]]
-name = 'About'
+name = 'À propos'
 url = '/about/'
 weight = 40
 
