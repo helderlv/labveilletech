@@ -1,5 +1,5 @@
 +++
-date = '2026-01-17T14:15:00+01:00'
+date = '2026-01-23T14:11:00+01:00'
 draft = false
 title = 'Spatial Design : Quand l’interface sort de l’écran'
 description = 'Concevoir des expériences pour le Spatial Computing et la Réalité Mixte.'

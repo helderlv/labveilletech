@@ -1,5 +1,5 @@
 +++
-date = '2026-01-15T11:17:41+01:00'
+date = '2026-01-21T11:17:41+01:00'
 draft = false
 title = 'Les Collections Étendues Figma'
 description = "Optimiser l'architecture des données pour éliminer toute redondance."

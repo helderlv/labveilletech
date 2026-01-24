@@ -1,5 +1,5 @@
 +++
-date = '2026-01-16T10:30:00+01:00'
+date = '2026-01-22T10:30:00+01:00'
 draft = false
 title = 'Google A2UI : Le standard de l’interface générative'
 description = "Quand l’IA ne répond plus par du texte mais génère ses propres interfaces."
